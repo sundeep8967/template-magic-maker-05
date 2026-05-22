@@ -3,14 +3,6 @@ import { PageShell } from "@/components/PageShell";
 import aboutImg from "@/assets/about-team.jpg";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About — Theokot Solutions" },
-      { name: "description", content: "Theokot Solutions is a software training institute focused on practical, job-ready skills." },
-      { property: "og:title", content: "About — Theokot Solutions" },
-      { property: "og:description", content: "Practical, job-ready software training built by industry practitioners." },
-    ],
-  }),
   component: About,
 });
 

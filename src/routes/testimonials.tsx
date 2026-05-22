@@ -4,14 +4,6 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { PageShell } from "@/components/PageShell";
 
 export const Route = createFileRoute("/testimonials")({
-  head: () => ({
-    meta: [
-      { title: "Testimonials — Theokot Solutions" },
-      { name: "description", content: "Hear from Theokot Solutions students who launched their tech careers with us." },
-      { property: "og:title", content: "Testimonials — Theokot Solutions" },
-      { property: "og:description", content: "Real stories from students who became developers, analysts and engineers." },
-    ],
-  }),
   component: Testimonials,
 });
 

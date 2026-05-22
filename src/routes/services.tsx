@@ -11,14 +11,6 @@ import securityImg from "@/assets/svc-security.jpg";
 import sapImg from "@/assets/svc-sap.jpg";
 
 export const Route = createFileRoute("/services")({
-  head: () => ({
-    meta: [
-      { title: "Services — Theokot Solutions" },
-      { name: "description", content: "Full-Stack, Data Science, AI, Cloud, Blockchain, Security, BI and SAP training courses." },
-      { property: "og:title", content: "Services — Theokot Solutions" },
-      { property: "og:description", content: "Hands-on software training programs designed by industry practitioners." },
-    ],
-  }),
   component: Services,
 });
 

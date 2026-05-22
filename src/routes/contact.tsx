@@ -4,14 +4,6 @@ import { Mail, Phone, Clock, MapPin } from "lucide-react";
 import { PageShell } from "@/components/PageShell";
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: "Contact — Theokot Solutions" },
-      { name: "description", content: "Talk to a counsellor at Theokot Solutions about courses, batches and placement." },
-      { property: "og:title", content: "Contact — Theokot Solutions" },
-      { property: "og:description", content: "Get in touch about courses, batches and placement support." },
-    ],
-  }),
   component: Contact,
 });
 

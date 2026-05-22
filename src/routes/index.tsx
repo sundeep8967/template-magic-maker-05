@@ -4,14 +4,6 @@ import heroImg from "@/assets/hero-classroom.jpg";
 import { PageShell } from "@/components/PageShell";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Theokot Solutions — Software Training Institute" },
-      { name: "description", content: "Learn in-demand software skills with hands-on, job-ready training at Theokot Solutions." },
-      { property: "og:title", content: "Theokot Solutions — Software Training Institute" },
-      { property: "og:description", content: "Hands-on, job-ready software training across full-stack, data, cloud and AI." },
-    ],
-  }),
   component: Home,
 });
 
